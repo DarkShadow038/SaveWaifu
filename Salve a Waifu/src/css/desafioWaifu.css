@@ -1,0 +1,39 @@
+body {    
+    background: #aa4b6b; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1.title {
+    padding: 3px;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+h2#description {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+
+div.col-md-4 {
+    display: flex;
+    justify-content: center;
+}
+
+div.container {
+    margin-top: 50px;
+}
+
+h1#sucesso {
+    text-align: center;
+    color: greenyellow;
+}
+
+h1#fracasso {
+    text-align: center;
+    color: red;
+}
